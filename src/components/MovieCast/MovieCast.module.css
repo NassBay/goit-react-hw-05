@@ -1,0 +1,27 @@
+.list {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.item {
+  width: 250px;
+  padding: 5px;
+  border: 1px solid rgb(71, 69, 69);
+  background-color: lightseagreen;
+  overflow: hidden;
+}
+
+.img {
+  margin-bottom: auto;
+  width: 250px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.title {
+  color: black;
+  font-size: 16px;
+  text-align: center;
+}

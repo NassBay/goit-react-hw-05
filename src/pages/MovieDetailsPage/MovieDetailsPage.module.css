@@ -1,0 +1,58 @@
+.div {
+  display: flex;
+  gap: 40px;
+  border: 1px solid lightseagreen;
+  padding: 20px;
+  width: 1380px;
+  box-sizing: border-box;
+  margin: 20px;
+  margin-top: 0;
+  height: 415px;
+}
+
+
+.title {
+  font-size: 24px;
+}
+
+.itemTitle {
+  font-size: 16px;
+  color: lightseagreen;
+  width: 110px;
+  /* text-align: right; */
+}
+
+.infoWrap {
+  border: 1px solid lightseagreen;;
+  padding: 20px;
+  width: 1380px;
+  box-sizing: border-box;
+  margin: 20px;
+}
+
+.infoTitle {
+  font-size: 16px;
+  color: lightseagreen;
+  margin-bottom: 15px;
+}
+
+.infoItem {
+  font-size: 16px;
+  color: black;
+}
+.infoItem:hover {
+   text-decoration: underline;
+}
+.arrow {
+    margin-right: 10px;
+    align-items: baseline;
+}
+
+.goBackBtn {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: black;
+    font-size: 18px;
+}

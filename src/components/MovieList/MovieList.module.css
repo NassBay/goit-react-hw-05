@@ -1,0 +1,34 @@
+.list {
+  font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 15px;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.item {
+  box-sizing: border-box;
+  width: 260px;
+  background-color: lightseagreen;
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.item:hover {
+  transform: scale(1.01);
+}
+
+.img {
+   width: 248px;
+  height: 375px;
+  object-fit: cover;
+}
+
+.movieTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+}

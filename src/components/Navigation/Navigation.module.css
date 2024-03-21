@@ -1,0 +1,24 @@
+.navi {
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  background-color: lightseagreen;
+  padding: 20px;
+  width: 100%;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  font-size: 28px;
+}
+
+.link:hover,
+.link:focus {
+  transform: scale(1.05);
+  color: black;
+}
+
+.active {
+  text-decoration: overline;
+}

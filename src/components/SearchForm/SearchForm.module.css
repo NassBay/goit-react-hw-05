@@ -1,0 +1,36 @@
+.container {
+    width: 1440px;
+}
+
+.form {
+  position: relative;
+  width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.input {
+  width: 350px;
+  height: 25px;
+  border-radius: 20px;
+  padding: 5px 0 5px 20px;
+  border: 1px solid lightseagreen;
+  color: rgb(128, 128, 128);
+}
+
+.input:focus {
+  outline: none;
+}
+
+.btn {
+  position: absolute;
+  top: 19px;
+  right: 40px;
+  background-color: transparent;
+  color: lightseagreen;
+}
+
+.btn:hover,
+.btn:focus {
+  outline: none;
+}
